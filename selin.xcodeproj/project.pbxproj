@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B00B91D20FCAB7600E7FDD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B91C20FCAB7600E7FDD1 /* AppDelegate.swift */; };
+		1B00B91F20FCAB7600E7FDD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B91E20FCAB7600E7FDD1 /* ViewController.swift */; };
+		1B00B92220FCAB7600E7FDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B00B92020FCAB7600E7FDD1 /* Main.storyboard */; };
+		1B00B92420FCAB7800E7FDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B00B92320FCAB7800E7FDD1 /* Assets.xcassets */; };
+		1B00B92720FCAB7800E7FDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B00B92520FCAB7800E7FDD1 /* LaunchScreen.storyboard */; };
+		1B00B93220FCAB7800E7FDD1 /* selinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B93120FCAB7800E7FDD1 /* selinTests.swift */; };
+		1B00B93D20FCAB7800E7FDD1 /* selinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B93C20FCAB7800E7FDD1 /* selinUITests.swift */; };
+		1B00B94D20FCD35000E7FDD1 /* cTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00B94C20FCD35000E7FDD1 /* cTableViewCell.swift */; };
+		1B4E04F8210203CE009DD8ED /* MarkingTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E04F7210203CE009DD8ED /* MarkingTagTableViewCell.swift */; };
+		1B4E04FA2105C083009DD8ED /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B4E04F92105C083009DD8ED /* Response.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B00B92E20FCAB7800E7FDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B00B91120FCAB7600E7FDD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B00B91820FCAB7600E7FDD1;
+			remoteInfo = selin;
+		};
+		1B00B93920FCAB7800E7FDD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B00B91120FCAB7600E7FDD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B00B91820FCAB7600E7FDD1;
+			remoteInfo = selin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B00B91920FCAB7600E7FDD1 /* selin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B00B91C20FCAB7600E7FDD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B00B91E20FCAB7600E7FDD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B00B92120FCAB7600E7FDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B00B92320FCAB7800E7FDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B00B92620FCAB7800E7FDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B00B92820FCAB7800E7FDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B00B92D20FCAB7800E7FDD1 /* selinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B00B93120FCAB7800E7FDD1 /* selinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selinTests.swift; sourceTree = "<group>"; };
+		1B00B93320FCAB7800E7FDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B00B93820FCAB7800E7FDD1 /* selinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B00B93C20FCAB7800E7FDD1 /* selinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selinUITests.swift; sourceTree = "<group>"; };
+		1B00B93E20FCAB7800E7FDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B00B94C20FCD35000E7FDD1 /* cTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cTableViewCell.swift; sourceTree = "<group>"; };
+		1B4E04F7210203CE009DD8ED /* MarkingTagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkingTagTableViewCell.swift; sourceTree = "<group>"; };
+		1B4E04F92105C083009DD8ED /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		1B4E05022105D4BF009DD8ED /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B00B91620FCAB7600E7FDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B92A20FCAB7800E7FDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B93520FCAB7800E7FDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B00B91020FCAB7600E7FDD1 = {
+			isa = PBXGroup;
+			children = (
+				1B00B91B20FCAB7600E7FDD1 /* selin */,
+				1B00B93020FCAB7800E7FDD1 /* selinTests */,
+				1B00B93B20FCAB7800E7FDD1 /* selinUITests */,
+				1B00B91A20FCAB7600E7FDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B00B91A20FCAB7600E7FDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B91920FCAB7600E7FDD1 /* selin.app */,
+				1B00B92D20FCAB7800E7FDD1 /* selinTests.xctest */,
+				1B00B93820FCAB7800E7FDD1 /* selinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B00B91B20FCAB7600E7FDD1 /* selin */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E04FE2105D4B1009DD8ED /* Model */,
+				1B4E04FD2105D33E009DD8ED /* Supporting Files */,
+				1B4E04FC2105D32D009DD8ED /* Cells */,
+				1B4E04FB2105D320009DD8ED /* Controllers */,
+				1B00B92020FCAB7600E7FDD1 /* Main.storyboard */,
+				1B4E05012105D4BF009DD8ED /* Model */,
+			);
+			path = selin;
+			sourceTree = "<group>";
+		};
+		1B00B93020FCAB7800E7FDD1 /* selinTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B93120FCAB7800E7FDD1 /* selinTests.swift */,
+				1B00B93320FCAB7800E7FDD1 /* Info.plist */,
+			);
+			path = selinTests;
+			sourceTree = "<group>";
+		};
+		1B00B93B20FCAB7800E7FDD1 /* selinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B93C20FCAB7800E7FDD1 /* selinUITests.swift */,
+				1B00B93E20FCAB7800E7FDD1 /* Info.plist */,
+			);
+			path = selinUITests;
+			sourceTree = "<group>";
+		};
+		1B4E04FB2105D320009DD8ED /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B91E20FCAB7600E7FDD1 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1B4E04FC2105D32D009DD8ED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E04F7210203CE009DD8ED /* MarkingTagTableViewCell.swift */,
+				1B00B94C20FCD35000E7FDD1 /* cTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1B4E04FD2105D33E009DD8ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B00B91C20FCAB7600E7FDD1 /* AppDelegate.swift */,
+				1B00B92320FCAB7800E7FDD1 /* Assets.xcassets */,
+				1B00B92520FCAB7800E7FDD1 /* LaunchScreen.storyboard */,
+				1B00B92820FCAB7800E7FDD1 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B4E04FE2105D4B1009DD8ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E04F92105C083009DD8ED /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B4E05012105D4BF009DD8ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B4E05022105D4BF009DD8ED /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B00B91820FCAB7600E7FDD1 /* selin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B00B94120FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selin" */;
+			buildPhases = (
+				1B00B91520FCAB7600E7FDD1 /* Sources */,
+				1B00B91620FCAB7600E7FDD1 /* Frameworks */,
+				1B00B91720FCAB7600E7FDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = selin;
+			productName = selin;
+			productReference = 1B00B91920FCAB7600E7FDD1 /* selin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B00B92C20FCAB7800E7FDD1 /* selinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B00B94420FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selinTests" */;
+			buildPhases = (
+				1B00B92920FCAB7800E7FDD1 /* Sources */,
+				1B00B92A20FCAB7800E7FDD1 /* Frameworks */,
+				1B00B92B20FCAB7800E7FDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B00B92F20FCAB7800E7FDD1 /* PBXTargetDependency */,
+			);
+			name = selinTests;
+			productName = selinTests;
+			productReference = 1B00B92D20FCAB7800E7FDD1 /* selinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B00B93720FCAB7800E7FDD1 /* selinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B00B94720FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selinUITests" */;
+			buildPhases = (
+				1B00B93420FCAB7800E7FDD1 /* Sources */,
+				1B00B93520FCAB7800E7FDD1 /* Frameworks */,
+				1B00B93620FCAB7800E7FDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B00B93A20FCAB7800E7FDD1 /* PBXTargetDependency */,
+			);
+			name = selinUITests;
+			productName = selinUITests;
+			productReference = 1B00B93820FCAB7800E7FDD1 /* selinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B00B91120FCAB7600E7FDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Selin Ersev";
+				TargetAttributes = {
+					1B00B91820FCAB7600E7FDD1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1B00B92C20FCAB7800E7FDD1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1B00B91820FCAB7600E7FDD1;
+					};
+					1B00B93720FCAB7800E7FDD1 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1B00B91820FCAB7600E7FDD1;
+					};
+				};
+			};
+			buildConfigurationList = 1B00B91420FCAB7600E7FDD1 /* Build configuration list for PBXProject "selin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B00B91020FCAB7600E7FDD1;
+			productRefGroup = 1B00B91A20FCAB7600E7FDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B00B91820FCAB7600E7FDD1 /* selin */,
+				1B00B92C20FCAB7800E7FDD1 /* selinTests */,
+				1B00B93720FCAB7800E7FDD1 /* selinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B00B91720FCAB7600E7FDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B00B92720FCAB7800E7FDD1 /* LaunchScreen.storyboard in Resources */,
+				1B00B92420FCAB7800E7FDD1 /* Assets.xcassets in Resources */,
+				1B00B92220FCAB7600E7FDD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B92B20FCAB7800E7FDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B93620FCAB7800E7FDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B00B91520FCAB7600E7FDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B4E04FA2105C083009DD8ED /* Response.swift in Sources */,
+				1B4E04F8210203CE009DD8ED /* MarkingTagTableViewCell.swift in Sources */,
+				1B00B91F20FCAB7600E7FDD1 /* ViewController.swift in Sources */,
+				1B00B91D20FCAB7600E7FDD1 /* AppDelegate.swift in Sources */,
+				1B00B94D20FCD35000E7FDD1 /* cTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B92920FCAB7800E7FDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B00B93220FCAB7800E7FDD1 /* selinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B00B93420FCAB7800E7FDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B00B93D20FCAB7800E7FDD1 /* selinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B00B92F20FCAB7800E7FDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B00B91820FCAB7600E7FDD1 /* selin */;
+			targetProxy = 1B00B92E20FCAB7800E7FDD1 /* PBXContainerItemProxy */;
+		};
+		1B00B93A20FCAB7800E7FDD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B00B91820FCAB7600E7FDD1 /* selin */;
+			targetProxy = 1B00B93920FCAB7800E7FDD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B00B92020FCAB7600E7FDD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B00B92120FCAB7600E7FDD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B00B92520FCAB7800E7FDD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B00B92620FCAB7800E7FDD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B00B93F20FCAB7800E7FDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B00B94020FCAB7800E7FDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B00B94220FCAB7800E7FDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSATZE2MZ7;
+				INFOPLIST_FILE = "$(SRCROOT)/selin/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B00B94320FCAB7800E7FDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSATZE2MZ7;
+				INFOPLIST_FILE = "$(SRCROOT)/selin/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1B00B94520FCAB7800E7FDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = selinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selin.app/selin";
+			};
+			name = Debug;
+		};
+		1B00B94620FCAB7800E7FDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = selinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/selin.app/selin";
+			};
+			name = Release;
+		};
+		1B00B94820FCAB7800E7FDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = selinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = selin;
+			};
+			name = Debug;
+		};
+		1B00B94920FCAB7800E7FDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = selinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ersev.selinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = selin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B00B91420FCAB7600E7FDD1 /* Build configuration list for PBXProject "selin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B00B93F20FCAB7800E7FDD1 /* Debug */,
+				1B00B94020FCAB7800E7FDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B00B94120FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B00B94220FCAB7800E7FDD1 /* Debug */,
+				1B00B94320FCAB7800E7FDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B00B94420FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B00B94520FCAB7800E7FDD1 /* Debug */,
+				1B00B94620FCAB7800E7FDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B00B94720FCAB7800E7FDD1 /* Build configuration list for PBXNativeTarget "selinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B00B94820FCAB7800E7FDD1 /* Debug */,
+				1B00B94920FCAB7800E7FDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B00B91120FCAB7600E7FDD1 /* Project object */;
+}
